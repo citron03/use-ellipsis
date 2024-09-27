@@ -1,7 +1,7 @@
 {
   "name": "use-ellipsis",
   "version": "0.0.1",
-  "description": "Ellipsis text component and hook (ex. tooltip) that provide various functions in react",
+  "description": "A React component and hook for handling text ellipsis with optional tooltip support.",
   "main": "index.js",
   "type": "module",
   "scripts": {
@@ -10,12 +10,22 @@
     "lint": "eslint .",
     "preview": "vite preview"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": [
+    "react",
+    "ellipsis",
+    "tooltip",
+    "component",
+    "hook"
+  ],
+  "author": "@citron03",
   "license": "MIT",
   "dependencies": {
     "react": "^18.3.1",
     "react-dom": "^18.3.1"
+  },
+  "peerDependencies": {
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0"
   },
   "devDependencies": {
     "@eslint/js": "^9.9.0",
@@ -29,5 +39,13 @@
     "typescript": "^5.5.3",
     "typescript-eslint": "^8.0.1",
     "vite": "^5.4.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/citron03/use-ellipsis.git"
+  },
+  "homepage": "https://github.com/citron03/use-ellipsis#readme",
+  "bugs": {
+    "url": "https://github.com/citron03/use-ellipsis/issues"
   }
 }
